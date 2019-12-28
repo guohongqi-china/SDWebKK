@@ -64,9 +64,9 @@
 		82E944B54CF4C9C953B26B6B /* Pods-SDWebKK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebKK_Tests.release.xcconfig"; path = "Target Support Files/Pods-SDWebKK_Tests/Pods-SDWebKK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F2C63F42389DCD1FA003D65 /* Pods-SDWebKK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebKK_Example.debug.xcconfig"; path = "Target Support Files/Pods-SDWebKK_Example/Pods-SDWebKK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A31416931F2B94B5F6AC8438 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AEF7F5A9D138E568C34F7118 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F8BBA46B8CCBFA9BE6EC3ED1 /* SDWebKK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SDWebKK.podspec; path = ../SDWebKK.podspec; sourceTree = "<group>"; };
+		A31416931F2B94B5F6AC8438 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AEF7F5A9D138E568C34F7118 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F8BBA46B8CCBFA9BE6EC3ED1 /* SDWebKK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDWebKK.podspec; path = ../SDWebKK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				6766C7B0B06633FDBA8AEDDB /* Pods-SDWebKK_Tests.debug.xcconfig */,
 				82E944B54CF4C9C953B26B6B /* Pods-SDWebKK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
